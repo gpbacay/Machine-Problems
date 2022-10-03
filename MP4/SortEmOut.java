@@ -47,7 +47,8 @@ public class SortEmOut {
    System.out.print("\nEnter 1 for asc, 2 for desc: ");
    order = input.nextInt();
    
-      if (order == 1 ) { //ascending order
+      if (order == 1 ) //ascending order
+      { 
          for (i = 1; i < array1.length; i++) 
          {
             for (j = i; j > 0; j--) 
@@ -62,7 +63,8 @@ public class SortEmOut {
          }
       }
      
-      else if (order == 2 ) { //descending order
+      else if (order == 2 ) //descending order
+      {
          for (i = 1; i < array1.length; i++) 
          {
             for (j = i; j > 0; j--) 
