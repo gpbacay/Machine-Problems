@@ -25,18 +25,21 @@ public class SortEmOut {
       }  
       array2[count-1] = num;
       
+      
       array1 = new int [count];
          for (i = 0; i < count; i++)
          {  
             array1[i] = array2[i]; 
          }
-         array1[count-1] = num;
-            if(count == MAX)
-               num = QUIT;
-            else
-            {
-               num = input.nextInt();
-            }
+      array1[count-1] = num;
+            
+            
+      if(count == MAX)
+         num = QUIT;
+      else
+      {
+         num = input.nextInt();
+      }
    }
 
       
