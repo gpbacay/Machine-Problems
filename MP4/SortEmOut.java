@@ -64,7 +64,7 @@ public class SortEmOut {
             }
          }
       }
-     
+
       else if (order == 2 ) //descending order
       {
          for (i = 1; i < array1.length; i++) 
