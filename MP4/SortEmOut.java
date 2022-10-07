@@ -35,7 +35,9 @@ public class SortEmOut {
             
             
       if(count == MAX)
+      {
          num = QUIT;
+      }
       else
       {
          num = input.nextInt();
